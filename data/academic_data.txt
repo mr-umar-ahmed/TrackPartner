@@ -1,7 +1,12 @@
-com.healthandstudytracker.Subject: Math
+Subject: Math
 Grades: [85, 90, 78]
 Total Study Hours: 15
 
-com.healthandstudytracker.Subject: Science
+Subject: Science
 Grades: [92, 88]
 Total Study Hours: 10
+
+Subject: maths
+Grades: [90]
+Total Study Hours: 5
+

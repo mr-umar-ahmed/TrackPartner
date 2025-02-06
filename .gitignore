@@ -27,3 +27,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore compiled files
+bin/
+*.class
+
+# Ignore user-specific files
+*.log

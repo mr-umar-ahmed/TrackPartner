@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Subject {
     private String name;
-    private List<Integer> grades; // List of grades for the subject
+    private List<Integer> grades;
     private int totalStudyHours;
 
     public Subject(String name) {
@@ -14,17 +14,14 @@ public class Subject {
         this.totalStudyHours = 0;
     }
 
-    // Add a grade
     public void addGrade(int grade) {
         grades.add(grade);
     }
 
-    // Add study hours
     public void addStudyHours(int hours) {
         totalStudyHours += hours;
     }
 
-    // Calculate average grade
     public double getAverageGrade() {
         if (grades.isEmpty()) return 0.0;
         int sum = 0;
